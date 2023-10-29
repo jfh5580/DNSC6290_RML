@@ -130,12 +130,12 @@ rem_params = {'max_depth': 9,
  
 #### Visualization of AIR vs. AUC for Bias testing
 
-* **Since we need to retrain most accurate model above 0.8 AIR, it is important to check the plots for AIR vs AUC.**
+* **Since we need to retrain the most accurate model above 0.8 AIR, it is important to check the plots for AIR vs AUC.**
 ![AIR VS AUC](images/AIR_AUC.png)
 
 
 
-#### Becision tree model for red teaming
+#### Decision tree model for red teaming
 
 * **A basic flow chart for how the XGB model works.**
 ![Stolen decision tree model](images/stolen.png)
@@ -146,18 +146,18 @@ rem_params = {'max_depth': 9,
 * **Basic residual analysis can help identify outliers and reveal any underlying issues that may affect the model's accuracy and reliability.**
 ![Residual plot](images/Residual_plot.png)
 
-* **Alternative models considered** : Among the three models trained, namely Lasso, EBM, and XGBoost, the XGBoost model demonstrates superior performance in terms of test AUC when compared to the AUC obtained from the other two models.
+* **Alternative models considered**: Among the three models trained, namely Lasso, EBM, and XGBoost, the XGBoost model demonstrates superior performance in terms of test AUC when compared to the AUC obtained from the other two models.
 
 ### Ethical considerations
 
-* **Describe potential negative impacts of using your group’s best remediated model** :
+* **Describe potential negative impacts of using your group’s best-remediated model** :
   * Consider math or software problems: As mathematical and statistical software and libraries continuously evolve and update, it is crucial to ensure compatibility with the specific version used during the model's development. If individuals employ a different version and obtain incorrect values, it can lead to unexpected risks or erroneous outcomes.
 
-  * Consider real-world risks: who, what, when and how?: While our model is primarily designed for educational purposes, caution must be exercised when applying it to real-life scenarios, such as predicting mortgage lending outcomes. The model may not account for all the intricacies and variables involved in the real world, potentially leading to less accurate predictions and suboptimal decision-making. If one of college student has limited knowledge and experience in the nuances and limitations of machine learning models, he or she may not fully comprehend the assumptions made during model development or the potential risks associated with relying solely on model predictions for financial decision-making.
+  * Consider real-world risks: who, what, when, and how?: While our model is primarily designed for educational purposes, caution must be exercised when applying it to real-life scenarios, such as predicting mortgage lending outcomes. The model may not account for all the intricacies and variables involved in the real world, potentially leading to less accurate predictions and suboptimal decision-making. If one of college student has limited knowledge and experience in the nuances and limitations of machine learning models, he or she may not fully comprehend the assumptions made during model development or the potential risks associated with relying solely on model predictions for financial decision-making.
 
-* **Describe potential uncertainties relating to the impacts of using your group’s best remediated model**:
+* **Describe potential uncertainties relating to the impacts of using your group’s best-remediated model**:
   * Consider math or software problems: The mathematical model can encompass intricate algorithms and calculations. The complexity of the model can introduce uncertainty when it comes to understanding and interpreting the results. It can be challenging for the model to accurately capture the underlying mathematical concepts and determine whether the implemented calculations are free from errors.
 
-   * Consider real-world risks: who, what, when and how? : Consider a scenario in which the government introduces new regulations or policies that directly impact the mortgage lending industry.  In such a situation, utilizing our group's best remediated model to predict mortgage lending outcomes can introduce uncertainties. The model may not have been trained on data that incorporates the newly implemented policy changes, leading to potential inaccuracies in its predictions or suboptimal decision-making. By continuously monitoring and adapting the model to reflect the evolving regulatory landscape, we can mitigate uncertainties and improve its performance in real-world applications.
+   * Consider real-world risks: who, what, when, and how? : Consider a scenario in which the government introduces new regulations or policies that directly impact the mortgage lending industry.  In such a situation, utilizing our group's best remediated model to predict mortgage lending outcomes can introduce uncertainties. The model may not have been trained on data that incorporates the newly implemented policy changes, leading to potential inaccuracies in its predictions or suboptimal decision-making. By continuously monitoring and adapting the model to reflect the evolving regulatory landscape, we can mitigate uncertainties and improve its performance in real-world applications.
    
 * **Describe any unexpected or results encountered during training**: During testing, a feature shape mismatch error occurred with the XGBoost model due to differences in the number of columns between the valid and test data. However, the EBM model did not encounter this error. Adhering to XGBoost's feature name requirements resolved the issue and ensured accurate test results.
