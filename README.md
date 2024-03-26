@@ -1,4 +1,4 @@
-# RML_Final_Project
+# Fair_Lending_Risk_Analysis_Project
 
 ## Model Card
 
@@ -12,8 +12,8 @@
 
 ### Intended Use
 
-* **Business Value**: Enhancing educational value for students studying mortgage lending in an academic setting.
-* **Objective**: Providing practical experience in responsible machine learning projects for educational purposes.
+* **Business Value**: Enhancing educational value for students or professionals studying mortgage lending in an academic setting.
+* **Objective**: Providing practical experience in responsible machine learning projects for several purposes.
 * **Intended Users** : MSBA students and educators in the academic context of responsible machine learning.
 * **Additional Information** : Valuable educational resource for GWU students.
  
