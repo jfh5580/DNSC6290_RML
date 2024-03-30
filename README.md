@@ -14,7 +14,7 @@
 
 * **Business Value**: Enhancing educational value for students or professionals studying mortgage lending in an academic setting.
 * **Objective**: Providing practical experience in responsible machine learning projects for several purposes.
-* **Intended Users** : MSBA students and educators in the academic context of responsible machine learning.
+* **Intended Users** : Students and educators in the academic context of responsible machine learning.
 * **Additional Information** : Valuable educational resource for GWU students.
  
 ### Training Data
